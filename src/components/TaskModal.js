@@ -1,4 +1,5 @@
 import ellipsisIcon from "../assets/icon-vertical-ellipsis.svg";
+import Subtasks from "./Subtasks";
 
 export default function TaskModal() {
   return (
@@ -15,6 +16,7 @@ export default function TaskModal() {
         finalize the first pricing model we'll use. Keep iterating the subtasks
         until we have a coherent proposition.
       </p>
+      <Subtasks />
     </div>
   );
 }
