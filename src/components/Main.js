@@ -1,5 +1,6 @@
 import ScrollContainer from "react-indiana-drag-scroll";
 import "react-indiana-drag-scroll/dist/style.css";
+import TaskBoard from "./TaskBoard";
 
 export default function Main() {
   return (
@@ -13,6 +14,7 @@ export default function Main() {
           inertia: false,
         }}
       >
+        <TaskBoard />
       </ScrollContainer>
     </div>
   );
