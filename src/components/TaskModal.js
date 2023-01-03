@@ -17,6 +17,13 @@ export default function TaskModal() {
         until we have a coherent proposition.
       </p>
       <Subtasks />
+      <div className="current-status">
+        <label htmlFor="select-status">Current Status</label>
+        <select name="" id="select-status">
+          <option value="doing">Doing</option>
+          <option value="not-doing">Not Doing</option>
+        </select>
+      </div>
     </div>
   );
 }
